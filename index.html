@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html, header, footer, body, h1, p {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    header {
+        height: 10%;
+        background-color: #212121;
+        color: white;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    
+    }
+
+    h1 {
+        font-family:sans-serif;
+        font-size: 175%; 
+    }
+
+    footer {
+        height: 10%; 
+        background-color: #212121;
+        color: white; 
+        font-family: sans-serif;
+        align-content: center;
+        text-align: center;
+    
+    }
+
+    main {
+        background: linear-gradient(black, #424242);
+        height: 80%;
+        font-family: sans-serif;
+        padding: 20px;
+        text-align: center;
+        align-content: center;
+    }
+
+    a {
+        margin: 10px auto;
+        display:inline-block; 
+        height: 50px; 
+        width: auto; 
+        align-content: center;
+        background-color: white; 
+        border-radius: 8px; 
+        color: #121212;
+        text-decoration:none; 
+        padding: 10px;
+        transition: background-color 500ms, color 500ms; 
+    }
+
+    main {
+        color: white;
+    }
+
+    a:hover {
+        background-color: #f39008;
+        color: black;
+    }
+
+
+</style>
+<body>
+    <header>
+        <h1>JokePad Mobile Application</h1>
+    </header>
+    
+    <main>
+        <p>This web page is the designated hosting platform for the Mobile App "JokePad" created
+            for the D424 Software Engineering Capstone project. 
+        </p>
+        <a href="app-release.apk" download>Download the APK File</a>
+    </main>
+    
+    <footer>Kevin Wood &#9400; 2025 </footer>
+</body>
+</html>
